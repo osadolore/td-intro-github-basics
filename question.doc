@@ -1,0 +1,29 @@
+
+    Git basic -version control
+By
+Benson Endurance
+
+A version control is like a storage house where programmers, developers store their source codes for easy retrieval and update.
+Now, let’s look at it like this,
+•	You have a project program you want to disable so it won’t run, but at the same time you do not want to delete it, a version control system helps to save or store such program files for future reference or retrieval.
+
+•	Let us assume something happens to your computer where all your projects are saved, maybe due to natural disaster, if you have a version control in place you do not need to worry about starting from scratch because you can easily retrieve all you source codes.
+
+•	Now, you are stuck on a particular codes or project and you want assistance from a colleague or a team member, you can share your work with them and solutions will be provided in minutes.by sharing they can easily debug what the problem was with the project.
+It is therefore safe to say that version control system makes work seamless, faster and efficient.
+
+          WHAT DO YOU UNDERSTAND BY GIT
+Git is a version control system used for coordinating work amongst programmers, developers, for proper project management so project can be quickly executed.
+It assists in tracking changes on any program files, saves, updates, merges and enables multiple people work on a project simultaneously.
+
+DESCRIBE THE PROCESS OF COMMITING A PROJECT TO GITHUB REPOSITORY
+Now, you have a project already with different sources files and codes, to commit it in a GitHub repository you need to do the following:
+•	You have to create a GitHub repository with a name for the project.
+•	You create a folder with the same name of the repository.
+•	Then, import your folder to your visual studio code
+•	Go to terminal run a GIT IN IT command, this will create a local repository in your machine
+•	Then run GIT add . command, this will add all the files in your folder to your local repository.
+•	Run Git commit -m “ message” command, this will save all the files to your local Git hub repository.
+•	Run Git branch -M “main” command this will create a sub branch named master.
+•	Run Git remote add and the URL of your online Git repository command, this will connect your local Git hub repository to your global Git hub repository to your Git hub website to enable collaboration.
+•	Finally, run Git push origin main command, this will save all your local Git hub repository files to your global Git hub repository and you can then share the link to your team mates to collaborate.
